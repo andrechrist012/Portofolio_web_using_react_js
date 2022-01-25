@@ -1,0 +1,99 @@
+.formPage{
+    position: relative;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 6em; 
+}
+
+.formPage .clouldLeft{
+    position: absolute;
+    top: -2.5em;
+    left: 38em;
+    z-index: 5;
+}
+
+.formPage .clouldRight{
+    position: absolute;
+    top: 15em;
+    left: -2em;
+    z-index: 5;
+}
+
+.messageForm{
+    border-radius: 20px;
+    position: relative;
+    background-color: #728ED7;
+    padding: .1em;
+}
+
+.messageForm > p{
+    padding-bottom: .2em;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+form .left{
+    display: flex;
+    flex-direction: column;
+    padding-right: .8em;
+    margin-bottom: -4em;
+}
+
+form input{
+    width: 18em;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #728ED7;
+    padding: .5em;
+    font-size: 15px;
+    margin-top: .8em;
+    margin-left: 1em;
+}
+
+form input:focus{
+    outline: none;
+}
+
+form .right{
+    display: flex;
+    flex-direction: column;
+    padding-left: .8em;
+    margin-bottom: -4em;
+    margin-right: 1em;
+}
+
+form textarea{
+    width: 20em;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #728ED7;
+    padding: .5em;
+    font-size: 15px;
+    margin-top: .8em;
+    height: 32%;
+}
+
+form textarea:focus{
+    outline: none;
+}
+
+form button{
+    margin-top: 1em;
+    border-radius: 10px;
+    padding: .2em;
+    border: none;
+    width: 100%;
+    color: #728ED7;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #ffffff;
+}

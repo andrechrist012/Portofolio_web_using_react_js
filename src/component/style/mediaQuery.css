@@ -1,0 +1,34 @@
+@media only screen and (max-width: 1140px) {
+    section{
+        margin-left: 30em;
+    }
+
+    .personality .clouldLeft{
+        display: none;
+    }
+    
+    .personality .clouldRight{
+        display: none;
+    }
+
+    .about{
+        position: relative;
+        margin-left: 3em;
+        padding-top: .1em;
+    }
+
+    .middle .text{
+        font-size: 14px;
+    }
+
+    .mySkill{
+        padding: 1rem 2rem;
+    }
+
+    .image img{
+        margin: 1.5em;
+        width: 85%;
+    }
+
+}
+

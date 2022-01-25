@@ -1,0 +1,35 @@
+.mySkill{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 8rem;
+}
+
+.mySkill label{
+    font-weight: 800;
+}
+
+.clouldLeft{
+    position: absolute;
+    top: 26em;
+    left: 8em;
+    z-index: -5;
+}
+
+.clouldRight{
+    position: absolute;
+    top: 4em;
+    right: 5em;
+}
+
+.progress {
+    width: 80%;
+    background-color: rgb(201, 200, 200);
+    border-radius: 20px;
+}
+  
+.myProgress {
+    height: 30px;
+    background-color: #05c57f;
+    border-radius: 20px;
+}

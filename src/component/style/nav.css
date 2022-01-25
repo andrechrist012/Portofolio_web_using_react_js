@@ -1,0 +1,22 @@
+nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    padding-right: 5em;
+    position: fixed;
+    width: 100%;
+    max-width: 1400px;
+    z-index: 50;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: .5em 1em;
+}
+
+#right{
+    margin-right: 4em;
+}

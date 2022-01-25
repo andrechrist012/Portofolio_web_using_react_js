@@ -1,0 +1,41 @@
+.personal{
+    margin-left: 7em;
+    display: flex;
+    width: 12em;
+    height: 100%;
+    flex-direction: column;
+    background: #728ED7;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+}
+
+.personal .img{
+    margin-top: 1em;
+    background: #728ED7;
+    border-radius: 50%;
+    padding: .8em;
+}
+
+.img img{
+    width: 260px;
+}
+
+.sosmed{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sosmed a{
+    padding: .3em;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+
+.personal p{
+    padding: 0 2em 0 2em;
+    text-align: center;
+    color: white;
+}

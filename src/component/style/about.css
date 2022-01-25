@@ -1,0 +1,35 @@
+/* section{
+    margin-left: 22em;
+} */
+
+
+.about{
+    position: relative;
+    margin-left: 14em;
+    padding-top: .1em;
+}
+
+.about .clouldLeft{
+    position: absolute;
+    top: 3em;
+    left: -6em;
+    z-index: -5;
+}
+
+.about .introduce1{
+    font-size: 68px;
+    font-weight: 600;
+}
+
+.about .clouldRight{
+    position: absolute;
+    top: 19em;
+    left: 30em;
+    z-index: -5;
+}
+
+.about .introduce2{
+    margin-left: .2em;
+    margin-top: -2.5em;
+    font-size: 22px;
+}
