@@ -5,7 +5,7 @@ import Image from './image/Vector.png'
 const Message = () => {
 
     const alertMessage = () =>{
-        alert('send')
+        alert('Message Send')
     }
 
     return (
@@ -16,7 +16,7 @@ const Message = () => {
                 <div className="messageForm">                   
                     <p>Send Me a Message</p>
                     <div className="line"></div>
-                    <form action="https://formsubmit.co/andrechrist.backup01@gmail.com" method="POST">
+                    <form action="https://formsubmit.co/andrechrist.p06@gmail.com" method="POST">
                         <input type="hidden" name="_subject" value="New email from our web"></input>
                         <input type="hidden" name="_captcha" value="false"></input>
                         <div className="left">
@@ -25,7 +25,7 @@ const Message = () => {
                         </div>
                         <div className="right">
                             <textarea name="message" id="" cols="30" rows="10" placeholder="Your message" required></textarea>
-                            <input type="hidden" name="_next" value="http://localhost:3000/"></input>
+                            <input type="hidden" name="_next" value="https://andre-christian.netlify.app/"></input>
                             <button type="submit" className="sendMessage" onClick={alertMessage}>Send</button>
                         </div>
                     </form>
