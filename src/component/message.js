@@ -5,7 +5,7 @@ import Image from './image/Vector.png'
 const Message = () => {
 
     const alertMessage = () =>{
-        alert('Message Send')
+        alert('Send Message')
     }
 
     return (
