@@ -15,7 +15,7 @@ const About = () => {
                 </p>
                 <img src={Image} alt="" width="140px" className="clouldRight" />
                 <p className="introduce2">
-                    My name is <a href='https://drive.google.com/file/d/1G62fpkS6FQ9gM5IwY6vYEYD-jvOVSsY4/view?usp=sharing' target="_blank" style={{textDecoration:'none', color: '#728ED7', fontWeight: 'bold'}}>Andre Christian</a>,<br/>
+                    My name is <a href='https://drive.google.com/file/d/1G62fpkS6FQ9gM5IwY6vYEYD-jvOVSsY4/view?usp=sharing' style={{textDecoration:'none', color: '#728ED7', fontWeight: 'bold'}}>Andre Christian</a>,<br/>
                     I'm a computer science student at BINUS.
                     
                 </p>
