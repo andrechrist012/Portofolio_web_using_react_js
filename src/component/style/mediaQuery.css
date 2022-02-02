@@ -29,6 +29,176 @@
         margin: 1.5em;
         width: 85%;
     }
+}
 
+@media only screen and (max-width: 550px){
+    .title{
+        font-size: 20px;
+    }
+
+    section{
+        margin-left: 0;
+    }
+
+    .personal{
+        display: none;
+    }
+
+    nav{
+        justify-content: center;
+    }
+
+    nav a{
+        font-size: 12px;
+        padding: .5em;
+    }
+
+    #right{
+        margin-right: 0;
+    }
+
+    .about{
+        position: relative;
+        padding-top: 1em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .welcome{
+        font-size: 45px; 
+        color : #728ED7;
+    }
+
+    .about .introduce1{
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .about .introduce2{
+        margin: -1em 0 3em 0;
+        font-size: 12px;
+    }
+
+    .LearnMore{
+        color : #728ED7;
+        font-size: 10px;
+        text-decoration: none;
+        margin-left: 0;
+    }
+    
+    .LearnMore svg{
+        margin-left: 0;
+    } 
+
+    .about .clouldLeft{
+        display: none;
+    }
+
+    .about .clouldRight{
+        display: none;
+    }
+
+    .formPage .clouldLeft{
+        display: none;
+    }
+    
+    .formPage .clouldRight{
+        display: none;
+    }
+
+    .mySkill{
+        padding: 1rem 6rem;
+    }
+
+    .mySkill label{
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .progress {
+        width: 65%;
+    }
+
+    .myProgress {
+        height: 20px;
+    }
+
+    .image{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gallery{
+        padding: 0;
+    }
+
+    .image img{
+        margin: 1em;
+        width: 60%;
+    }
+
+    .formPage{
+        max-width: 400px;
+        margin: auto;
+        margin-top: 4em;
+        margin-bottom: 2em; 
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form .left{
+        padding-right: 0;
+        margin-bottom: 0;
+    }
+
+    form .right{
+        padding-left: 0;
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+
+    form input{
+        width: 20rem;
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid #728ED7;
+        padding: .5em;
+        font-size: 15px;
+        margin-top: .8em;
+        margin-left: 0;
+    }
+
+    form textarea{
+        width: 20rem;
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid #728ED7;
+        padding: .5em;
+        font-size: 15px;
+        margin-top: .8em;
+        height: 32%;
+    }
+
+    .messageForm > p{
+        padding-bottom: .2em;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    form button{
+        margin-bottom: 1em;
+    }
 }
 

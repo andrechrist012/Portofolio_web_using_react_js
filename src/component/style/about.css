@@ -21,6 +21,11 @@
     font-weight: 600;
 }
 
+.welcome{
+    font-size: 85px; 
+    color : #728ED7;
+}
+
 .about .clouldRight{
     position: absolute;
     top: 19em;
@@ -29,7 +34,17 @@
 }
 
 .about .introduce2{
-    margin-left: .2em;
-    margin-top: -2.5em;
+    margin: -2.5em .2em 3em 0;
     font-size: 22px;
 }
+
+.LearnMore{
+    color : #728ED7;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 6.5em;
+}
+
+.LearnMore svg{
+    margin-left: 8.5em;
+} 

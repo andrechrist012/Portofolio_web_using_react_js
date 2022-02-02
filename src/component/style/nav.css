@@ -4,7 +4,6 @@ nav{
     align-items: center;
     flex-direction: row;
     background-color: white;
-    padding-right: 5em;
     position: fixed;
     width: 100%;
     max-width: 1400px;
@@ -13,8 +12,14 @@ nav{
 
 nav a{
     text-decoration: none;
-    color: black;
+    color: #728ED7;
     padding: .5em 1em;
+    font-weight: 400;
+    transition: .1s ease-in;
+}
+
+nav a:hover{
+    color: #44547e;
 }
 
 #right{

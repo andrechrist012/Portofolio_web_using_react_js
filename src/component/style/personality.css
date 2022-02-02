@@ -32,14 +32,18 @@
     border: none;
     cursor: pointer;
     transition: 0.2s ease;
+    color: white;
 }
 
 .persona button:hover{
     box-shadow: 0px 0px 10px 5px #728ED7;
+    background-color: #44547e;
+    color: #728ED7;
 }
 
-button > svg{
+button svg{
     pointer-events: none;
+    font-size: 75px;
 }
 
 .middle{
@@ -64,3 +68,37 @@ button > svg{
     font-weight: 500;
 }
 
+@media only screen and (max-width: 550px) {
+    .personality .clouldLeft{
+        display: none;
+    }
+    
+    .personality .clouldRight{
+        display: none;
+    }
+
+    .persona button{
+        width: 70px;
+        height: 70px;
+    }
+
+    .middle .text{
+        width: 32%;
+        padding: 1.5em 1em 2em 1em;
+    }
+
+    button svg{
+        pointer-events: none;
+        font-size: 45px;
+    }
+
+    .text h3 {
+        font-size: 14px;
+    }
+
+    .text p{
+        text-align: center;
+        font-weight: 400;
+        font-size: 11px;
+    }
+}
